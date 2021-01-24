@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module2-solution</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: white;
+}
+h1 {
+  margin: 100px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 200%
+}
+
+section {
+  position: relative;
+  padding: 15px
+  width:100%;
+}
+
+p {
+  position: relative;
+  clear: right;
+}
+
+div {
+  
+  background-color: blue;
+  border: 1px solid black;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+  
+.p1 {
+  float: right;
+  width: 100px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: green;
+}
+
+.p2 {
+  float: right;
+  width: 100px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.p3 {
+  float: right;
+  width: 100px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: magenta;
+}
+.content {
+  padding: 5px;
+  border: none;
+  background-color: blue;
+  font-family: Arial;
+  color: black;
+  margin: 0px;
+  height: 200px;
+  overflow: auto;
+}
+.row {
+  width: 90%
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.col-lg-4 {
+  float: left;
+  width: 33.33%;
+}
+}
+
+/********** Tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 {
+  float: left;
+  width: 50%%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+/********** Mobil only **********/
+@media (max-width: 767px) {
+.col-sm-12 {
+float: left;
+width: 100%;
+}
+}
+
+</style>
+</head>
+
+<body>
+  <h1>The Menu</h1>
+  <section class= "col-lg-4 col-md-6 col-sm-12">
+    <div>
+      <p class="p1">Plati</p>
+      <p class="content">
+        Insalata verde : salade verte   5,00 €
+Insalata mista : salade verte, oignons, maïs, tomates et olives 6,50 €
+Bruschetta : Tartine de pain grillé avec concassé de tomate, huile d’olive et basilic frais 7,00 €
+Insalata di rucola e parmigiano : Salade de roquette et copeaux de parmesan 9,50 €
+Antipasto di legumi : Hors-d'oeuvre de légumes grillés et huile d’olive 12,00 € 
+</p>
+    </div>
+</section>
+
+  <section class="col-lg-4 col-md-6 col-sm-12">
+    <div>
+      <p class="p2">Pasta</p>
+      <p class="content">
+        Spaghetti al pomodoro : Sauce tomate 11,00 €
+Gnocchi al gorgonzola : Crème de gorgonzola 13,00 €  
+Gnocchi alla sorrentina : Sauce tomate, mozzarella et basilic frais 13,00 €
+Spaghetti alla bolognese : Sauce bolognaise 13,00 €
+Spaghetti alla carbonara : Œuf, pancetta, crème, parmesan et poivre noir    13,00 €
+Spaghetti al pesto : Pesto de Genova 13,00 €
+</p>
+    </div>
+  </section>
+
+  <section class="col-lg-4 col-md-6 col-sm-12">
+    <div>
+      <p class="p3">Pizza</p>
+      <p class="content">Focaccia : Pâte à pizza avec sel, origan et huile d’olive    7,00 €
+Margherita : Tomates, mozzarella et origan  10,00 €
+Napoletana : Tomates, mozzarella, anchois, câpres et origan 11,00 €
+Prosciutto e funghi : Tomates, mozzarella, jambon, champignons et origan    12,00 €
+Diavola : Tomates, mozzarella, salami piquant et olives 12,50 €.
+</p>
+</div>
+</section>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
